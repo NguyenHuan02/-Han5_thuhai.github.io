@@ -313,7 +313,7 @@ body.dark-theme {
     width: 100%;
     border: none;
     outline: none;
-    padding: 1rem;
+    padding: 3px;
     color: var(--title-color);
     font-size: var(--small-font-size);
     font-family: var(--body-font);

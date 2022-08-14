@@ -21,6 +21,67 @@
     <link rel="stylesheet" href="assets/css/loader.css">
 
     <title>I'm Nguyen Thi Thu Hai </title>
+    <style>
+        .text_shadows {
+            text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+            color: var(--color-primary);
+            animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+        }
+        
+        @keyframes shadows {
+            0% {
+                text-shadow: none;
+            }
+            10% {
+                text-shadow: 3px 3px 0 var(--color-secondary);
+            }
+            20% {
+                text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+            }
+            30% {
+                text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+            }
+            40% {
+                text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+            }
+            50% {
+                text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+            }
+            60% {
+                text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+            }
+            70% {
+                text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+            }
+            80% {
+                text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary);
+            }
+            90% {
+                text-shadow: 3px 3px 0 var(--color-secondary);
+            }
+            100% {
+                text-shadow: none;
+            }
+        }
+        
+        @keyframes move {
+            0% {
+                transform: translate(0px, 0px);
+            }
+            40% {
+                transform: translate(-12px, -12px);
+            }
+            50% {
+                transform: translate(-12px, -12px);
+            }
+            60% {
+                transform: translate(-12px, -12px);
+            }
+            100% {
+                transform: translate(0px, 0px);
+            }
+        }
+    </style>
 </head>
 
 <body onload="myFunction()">
@@ -59,7 +120,7 @@
                         </div>
                     </div>
 
-                    <h2 class="profile__name">Nguyen Thi Thu Hai</h2>
+                    <h2 class="profile__name text_shadows ">Nguyen Thi Thu Hai</h2>
                     <h3 class="profile__profession">Student</h3>
 
                     <ul class="profile__social">
@@ -1014,16 +1075,16 @@
                     <!--================video=================-->
                     <div class="project_video " data-content id="video">
                         <article class="video_cart">
-                            <video src="assets/img/FILE_20220814_232137_VIDEO_DOWNLOAD_1656725075990.mp4 " controls></video>
+                            <video src="assets/img/FILE_20220814_232137_VIDEO_DOWNLOAD_1656725075990.mp4 " poster="https://pnggrid.com/wp-content/uploads/2021/05/Canva-app-logo-1024x1024.png" controls></video>
                             <p>@nguyenthithuhai: The pig exercises in the park</p>
                         </article> <br> <br>
 
                         <article class="video_cart">
-                            <video src="assets/img/FILE_20220814_232138_lv_7092564823333981442_20220502144216.mp4 " controls></video>
+                            <video src="assets/img/FILE_20220814_232138_lv_7092564823333981442_20220502144216.mp4 " poster="https://pnggrid.com/wp-content/uploads/2021/05/Canva-app-logo-1024x1024.png" controls></video>
                             <p>@nguyenthithuhai: Weather warning video</p>
                         </article><br> <br>
                         <article class="video_cart">
-                            <video src="assets/img/FILE_20220814_232138_lv_7104113308411677954_20220621130633.mp4 " controls></video>
+                            <video src="assets/img/FILE_20220814_232138_lv_7104113308411677954_20220621130633.mp4 " poster="https://pnggrid.com/wp-content/uploads/2021/05/Canva-app-logo-1024x1024.png" controls></video>
                             <p>@nguyenthithuhai: The music is not interesting and good</p>
                         </article><br> <br>
                     </div>
